@@ -5,4 +5,4 @@ SELECT
 FROM 
     neighborhoods
 WHERE 
-    name in ('O''Hare', 'Loop');
+    name in ('O''Hare', 'Loop'); -- Filtramos por los nombres de vecindarios O'Hare y Loop
