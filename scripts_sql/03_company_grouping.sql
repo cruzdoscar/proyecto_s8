@@ -1,3 +1,6 @@
+-- Del 1 al 7 de noviembre de 2017, las empresas de taxis más populares fueron Flash Cab y Taxi Affiliation Services.
+-- Esta consulta encuentra el número de viajes de estas dos empresas y agrupa todas las demás empresas bajo el nombre 'Other'
+
 SELECT 
     CASE -- Agrupamos las empresas por sus nombres y una categoria 'Other' para las demás
         WHEN c.company_name = 'Flash Cab' THEN 'Flash Cab'
