@@ -1,4 +1,5 @@
 -- Solicitud para obtener la cantidad de viajes para cada empresa de taxis cuyo nombre contenga las palabras 'Yellow' o 'Blue' del 1 al 7 de noviembre de 2017
+
 SELECT 
     c.company_name,
     COUNT(t.trip_id) AS trips_amount
@@ -7,6 +8,6 @@ FROM
 INNER JOIN 
     trips AS t ON t.cab_id = c.cab_id
 WHERE
-    (c.company_name LIKE '%Yellow%' OR c.company_name LIKE '%Blue%') AND (t.start_ts::date BETWEEN '2017-11-01' AND '2017-11-07')
+    (c.company_name LIKE '%Yellow%' OR c.company_name LIKE '%Blue%') AND (t.start_ts::date BETWEEN '2017-11-01' AND '2017-11-07') -- Filtramos por las empresas que contienen 'Yellow' o 'Blue' y por las fechas del 1 al 7 de noviembre de 2017
 GROUP BY 
     c.company_name;
