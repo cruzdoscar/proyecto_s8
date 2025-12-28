@@ -37,4 +37,7 @@ Se analizaron los resultados de SQL para probar la hipótesis:
 > *"La duración promedio de los viajes desde el Loop hasta el Aeropuerto Internacional O'Hare cambia los sábados lluviosos"*.
 
 ## 📊 Conclusiones Clave
-(Se completará al finalizar el análisis...)
+1. El clima tiene un alto impacto en el servicio. Las condiciones de lluvia o tormenta impactan directamente en los tiempos de traslado, probablemente debido al tráfico por una conducción más precavida.
+2. Hallazgos del Análisis Exploratorio:
+Flash Cab se posiciona como el líder del mercado en volumen de viajes, superando significativamente a sus competidores directos.
+`The Loop` es el epicentro de la actividad de transporte, seguido por `River North`, `West Loop` y `Streeterville`. Para Zuber, estos barrios representan las zonas de mayor demanda donde se debe optimizar la disponibilidad de conductores.
