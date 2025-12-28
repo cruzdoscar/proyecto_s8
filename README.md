@@ -18,7 +18,7 @@ Para este proyecto, seguí una estructura de ingeniería para separar la obtenci
 
 * `/notebooks`: Contiene el análisis exploratorio y pruebas de hipótesis.
 * `/scripts_sql`: Consultas optimizadas para la base de datos de Chicago.
-* `/data`: Conjuntos de datos extraídos y procesados.
+* `/datasets`: Conjuntos de datos extraídos y procesados.
 
 ## 🚀 Pipeline del Proyecto
 
@@ -37,7 +37,8 @@ Se analizaron los resultados de SQL para probar la hipótesis:
 > *"La duración promedio de los viajes desde el Loop hasta el Aeropuerto Internacional O'Hare cambia los sábados lluviosos"*.
 
 ## 📊 Conclusiones Clave
-1. El clima tiene un alto impacto en el servicio. Las condiciones de lluvia o tormenta impactan directamente en los tiempos de traslado, probablemente debido al tráfico por una conducción más precavida.
-2. Hallazgos del Análisis Exploratorio:
+1. Se confirma que la duración promedio de los viajes desde `The Loop` hasta el Aeropuerto Internacional `O'Hare` cambia los sábados lluviosos.
+2. El clima tiene un alto impacto en el servicio. Las condiciones de lluvia o tormenta impactan directamente en los tiempos de traslado, probablemente debido al tráfico por una conducción más precavida.
+3. Hallazgos del Análisis Exploratorio:
 Flash Cab se posiciona como el líder del mercado en volumen de viajes, superando significativamente a sus competidores directos.
 `The Loop` es el epicentro de la actividad de transporte, seguido por `River North`, `West Loop` y `Streeterville`. Para Zuber, estos barrios representan las zonas de mayor demanda donde se debe optimizar la disponibilidad de conductores.
